@@ -11,15 +11,6 @@ The program:
 4. Creates a GIF from all the images.
 5. Sets the duration of each frame to 500 ms and makes the GIF loop continuously.
 
-The main code uses:
-
-import imageio.v3 as iio
-file_names = ["chiclet1.png", "chiclet2.png", "chiclet3.png", "chiclet4.png"]
-images = []
-for file_name in file_names:
-    images.append(iio.imread(file_name))
-iio.imwrite("chiclet.gif", images, duration=500, loop=0)
-
 ## Project files
 
 The repository contains:
@@ -34,4 +25,4 @@ Technologies
 
 * Python
 * imageio
-* Git & GitHub
+* Git & GitHub 
